@@ -1,0 +1,6 @@
+jobs:
+    setup_java_job:
+        runs-on: ubunti-latest
+        steps:
+            - name: Setup Java JDK
+              uses: actions/setup-java@v4.5.0
